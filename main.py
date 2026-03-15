@@ -4,8 +4,9 @@ from datetime import datetime
 
 # --- আপনার নাম ও পাসওয়ার্ড এখানে লিখুন ---
 YOUR_NAME = "Rayhan Ahmed" 
-MY_PASSWORD = "Rafan_jarvis_os" 
-API_KEY = "AIzaSyAN9Ue7scUU4-C0YRcyDg6CX21I9MN67M8"
+MY_PASSWORD = "# আগের MY_PASSWORD = "boss" লাইনটি মুছে এটি দিন
+MY_PASSWORD = st.secrets["ADMIN_PASSWORD"]
+API_KEY = st.secrets["GEMINI_API_KEY"]
 
 genai.configure(api_key=API_KEY)
 model = genai.GenerativeModel('gemini-1.5-flash')
