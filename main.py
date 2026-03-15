@@ -3,8 +3,7 @@ import google.generativeai as genai
 from datetime import datetime
 
 # --- আপনার নাম ও পাসওয়ার্ড এখানে লিখুন ---
-YOUR_NAME = "Rayhan Ahmed" 
-
+YOUR_NAME = "Rayhan Ahmed"
 MY_PASSWORD = st.secrets["ADMIN_PASSWORD"]
 API_KEY = st.secrets["GEMINI_API_KEY"]
 
